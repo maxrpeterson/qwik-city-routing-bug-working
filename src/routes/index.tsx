@@ -4,12 +4,9 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 export default component$(() => {
   return (
     <>
-      <h1>Hi 👋</h1>
-      <p>
-        Can't wait to see what you build with qwik!
-        <br />
-        Happy coding.
-      </p>
+      <h1>
+        <a href="/abc/xyz/static-segment/more-dynamic-123/">Example Route</a>
+      </h1>
     </>
   );
 });

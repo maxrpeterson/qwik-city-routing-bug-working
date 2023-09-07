@@ -8,5 +8,6 @@ This app is built with Qwik and Qwik City v1.2.7 specifically in order to demons
 
 - Clone the app
 - `npm install`
+- ensure Qwik & Qwik City 1.2.7 was installed `npm ls @builder.io/qwik @builder.io/qwik-city`
 - `npm start`
 - visit a path like `http://localhost:5173/abc/xyz/static-segment/more-dynamic-123/` and notice that the expected page is rendered
